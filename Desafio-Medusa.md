@@ -47,7 +47,7 @@ medusa -h 192.168.56.101 -U usuarios.txt -P password.txt -M ftp
   - `-P`: Caminho para o arquivo com a lista de senhas.
   - `-M ftp`: Módulo do protocolo FTP.
 
-> 📸 *(Cole ou arraste aqui o print do terminal mostrando o sucesso do Medusa no FTP)*
+> 📸 ![Evidência Brute Force FTP](./desafio-medusa-imagens/test-brute-force-dicionário.png)
 
 ---
 
@@ -73,7 +73,7 @@ medusa -h 192.168.56.101 -U usuarios.txt -p msfadmin -M smbnt
   - `-p msfadmin`: Senha única (em minúsculo) testada para todos os usuários.
   - `-M smbnt`: Módulo para o protocolo SMB/NetBIOS.
 
-> 📸 *(Cole ou arraste aqui o print do terminal mostrando a execução do Password Spraying)*
+> 📸 ![Evidência Password Spraying SMB](./desafio-medusa-imagens/password-spraying.png)
 
 ---
 
